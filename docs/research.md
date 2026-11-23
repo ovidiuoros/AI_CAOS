@@ -8,7 +8,7 @@ The first part covers the rules and the systems that exist today. The second par
 [Production systems](#production-systems) · [Driver recognition in production cars](#driver-recognition-and-profiles-in-production-cars) ·
 [CV metrics](#computer-vision-metrics) · [AI_CAOS vs Euro NCAP](#ai_caos-vs-euro-ncap-2026) ·
 [Recognition, profiles and glasses](#our-recognition-profiles-and-glasses-phase) · [Differentiation](#where-we-differentiate) ·
-[Gaps](#gaps-and-next-steps) · [Tech stack](#tech-stack-planned-vs-final) · [Sources](#sources)
+[Gaps](#gaps-and-next-steps) · [Sources](#sources)
  
 ---
  
