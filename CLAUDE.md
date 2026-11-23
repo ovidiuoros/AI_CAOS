@@ -73,5 +73,6 @@ There are no automated tests. Before finishing a change:
 1. Run `uv run python run.py` and check the change with the real webcam.
 2. For copilot changes, run `uv run python dashboard/llm.py` (needs Ollama).
 3. Check `git status`: no runtime or private files staged.
+ 
 Known open issues are listed in the "Known issues" section of `README.md`.
  
