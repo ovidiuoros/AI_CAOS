@@ -1,44 +1,36 @@
-# Python
+# --- Confidential: organizer materials under NDA ---
+context/
+
+# --- Secrets and local settings ---
+.env*
+!.env.example
+
+# --- Personal data written while the app runs ---
+# profiles.json (face prints = biometric data), calib_<name>.json, calib.json, state.json
+# and their *.json.tmp copies. Every .json is ignored as a safety net.
+*.json
+*.tmp
+
+# --- Models (they download again by themselves) ---
+*.task
+*.onnx
+*.pt
+*.tflite
+*.part
+
+# --- Python ---
 .venv/
 venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+.ruff_cache/
+*.log
 
-# Secrets
-.env
-
-# Models / local artifacts
-*.pt
-*.task
-
-# Editors / OS
+# --- Editors / OS ---
 .vscode/
 .idea/
 .DS_Store
-
-# Runtime files written by the detector
-*.json
-*.csv
-frame.jpg
-*.tmp
-
-# Secrets (variants of .env)
-.env*
-!.env.example
-
-# Other model formats and recordings
-*.onnx
-*.tflite
-
-# Python tooling
-.pytest_cache/
-.ruff_cache/
-*.egg-info/
-dist/
-build/
-*.log
-
-# OS (Windows)
 Thumbs.db
 desktop.ini
-
+~$*
